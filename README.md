@@ -5,3 +5,5 @@ Demo analysis of temperature observations from a private weather station compare
 Period analysed: 1 Septemder 2019 - 25 February 2020.
 
 Conclusion: Yes, this winter has been very mild!
+
+See the file **Project description.md** for a report
