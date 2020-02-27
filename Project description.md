@@ -21,6 +21,7 @@ I have passed these Microsoft exams:
 These 3 give me the certifications *MCSA: BI reporting* and *MCSE: Data management and analysis.*
 
 
+
 ## Project background
 
 I have a weather station (Fine Offset WH2900), which uploads measurements continuously to Weather Underground (from now on, "WU").
@@ -37,6 +38,7 @@ In order to do some visualizing of this data, I decided to get some answers to t
 - Which days had the most extreme differences at home, compared to the normal curve?
 
 And let me emphasize that this is not meant to a contribution to the current climate debate, but more my being curious of how I could get data off the web, and to compare that to other observations and long-term averages.
+
 
 
 ## Methodology
@@ -63,9 +65,10 @@ To-do:
 - Formulate a conclusion
 
 
+
 ## Results
 
-Please see the Weather.pbix file.
+**Please see the Weather.pbix file.**
 
 In short, the results are:
 - Over the whole period, the average difference from normal temperature is +2.8 degrees C.
@@ -87,7 +90,8 @@ The observations at home show a similar pattern to Blindern, which also is to be
 ### Possible extension of the analysis
 
 Since WU records numerous measurements, we could extend the comparison to air pressure, precipitation, wind, etc.
-For this demo, I have decided to limit the scope to temperature.
+For this demo, however, I have decided to limit the scope to just temperature.
+
 
 
 ## Conclusion
