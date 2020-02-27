@@ -3,7 +3,7 @@
 This is a little project to demonstrate the following:
 
 - using API to get data from an online service
-- data wrangling in Python
+- data wrangling in Python and Power BI
 - visualizing data and conclusions in Power BI
 
 
@@ -47,7 +47,8 @@ Data needed:
 3. Temperature observations for my weather station at Galgeberg, Oslo
 
 Sources for the data:
-1 and 2. Meteorologisk Institutt eKlima service, www.met.no
+1. Meteorologisk Institutt eKlima service, www.met.no
+2. www.met.no
 3. Weather Underground, https://www.wunderground.com/dashboard/pws/IOSLO1862, api.weather.com
 
 Definition of daily "normal temperature": The temperature for that date during the period 1961-1990.
@@ -80,7 +81,13 @@ In short, the results are:
 As anyone who has lived in Oslo during this winter, the fact that it has been very mild comes as no surprise. Almost +3 degrees deviation from the norm does explain why there has been very little snow and a snow cover of zero for most of the period.
 From early December, the deviation has been around +5 degrees most of the time.
 
-The observations at home show a similar pattern to Blindern, which also is to be expected as the distance between the two is only approximately 5 km. We have noticed that temperatures reported from Blindern seem to be lower than ours, and the stats show that the average difference is 1 degree. This can have several reasons, for example surrounding buildings, elevation, (un-)suitable location for the station, etc.
+The observations at home show a similar pattern to Blindern, which also is to be expected as the distance between the two is only approximately 5 km. We have noticed that temperatures reported from Blindern seem to be lower than ours, and the stats show that the average difference is 1 degree. This can have several reasons, for example surrounding buildings, elevation, less suitable location for the home station, etc.
+
+
+### Possible extension of the analysis
+
+Since WU records numerous measurements, we could extend the comparison to air pressure, precipitation, wind, etc.
+For this demo, I have decided to limit the scope to temperature.
 
 
 ## Conclusion
