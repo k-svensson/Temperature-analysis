@@ -51,9 +51,9 @@ Sources for the data:
 2. www.met.no
 3. Weather Underground, https://www.wunderground.com/dashboard/pws/IOSLO1862, api.weather.com
 
-Definition of daily "normal temperature": The temperature for that date during the period 1961-1990.
+*Definition of daily "normal temperature": The temperature for that date during the period 1961-1990.*
 
-
+To-do:
 - Get data and save to disk
 - Make the WU data the same granularity (daily) as the data from met.no
 - Load data into Power BI
