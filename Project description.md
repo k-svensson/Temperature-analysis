@@ -24,7 +24,7 @@ These 3 give me the certifications *MCSA: BI reporting* and *MCSE: Data manageme
 
 ## Project background
 
-I have a weather station (Fine Offset WH2900), which uploads measurements continuously to Weather Underground (from now on, "WU").
+I have a Fine Offset WH2900 weather station, purchased in August 2019, which is more than accurate enough for my needs and it uploads measurements continuously to Weather Underground (from now on, "WU").
 
 WU has changed their data policy over time which makes it more difficult to actually get access to your own data. Since I had no intention to lose the data, I wanted to download it regularly to store on a local disk where **I** decide what to do with it.
 
@@ -38,6 +38,8 @@ In order to do some visualizing of this data, I decided to get some answers to t
 - Which days had the most extreme differences at home, compared to the normal curve?
 
 And let me emphasize that this is not meant to a contribution to the current climate debate, but more my being curious of how I could get data off the web, and to compare that to other observations and long-term averages.
+
+I could probably have done this project as a Jupyter notebook, but I wanted to see what I could do with Power BI to visualize and present the data.
 
 
 
@@ -56,7 +58,8 @@ Sources for the data:
 *Definition of daily "normal temperature": The temperature for that date during the period 1961-1990.*
 
 To-do:
-- Get data and save to disk
+- Get data from met.no
+- Get data from WU, and convert JSON to CSV files
 - Make the WU data the same granularity (daily) as the data from met.no
 - Load data into Power BI
 - Remove unnecessary columns from the tables (WU provides 37 columns!)
@@ -85,6 +88,11 @@ As anyone who has lived in Oslo during this winter, the fact that it has been ve
 From early December, the deviation has been around +5 degrees most of the time.
 
 The observations at home show a similar pattern to Blindern, which also is to be expected as the distance between the two is only approximately 5 km. We have noticed that temperatures reported from Blindern seem to be lower than ours, and the stats show that the average difference is 1 degree. This can have several reasons, for example surrounding buildings, elevation, less suitable location for the home station, etc.
+
+The Python code is included for reference and is not meant to actually be run anywhere else than once, by me. It is by no means elegant or efficient but that wasn't my goal anyway.
+
+There is not much data missing, so I have chosen to simply disregard that issue. Possible causes of data loss include wifi problems, but thankfully there has been none of that during this period!
+
 
 
 ### Possible extension of the analysis
