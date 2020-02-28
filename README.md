@@ -6,4 +6,19 @@ Period analysed: 1 Septemder 2019 - 25 February 2020.
 
 Conclusion: Yes, this winter has been very mild!
 
-See the file **Project description.md** for a report
+
+Files in this repo:
+
+[Report](Report.md)
+
+[Power BI visualization](Temp analysis.pbix)
+
+Input files:
+
+[Normal daily temperature at Blindern](Døgnnormal Blindern.txt)
+
+[Observed daily temperature at Blindern](Døgnverdier Blindern 190820-200225.txt)
+
+[Sample result from Weather Underground query](WUdata-20200215.json)
+
+[Weather Underground data converted to daily average](Galgeberg2.csv)
