@@ -76,7 +76,7 @@ From early December, the deviation has been around +5 degrees most of the time.
 
 The observations at home show a similar pattern to Blindern, which also is to be expected as the distance between the two is only approximately 5 km. We have noticed that temperatures reported from Blindern seem to be lower than ours, and the stats show that the average difference is 1 degree. This can have several reasons, for example surrounding buildings, elevation, less suitable location for the home station, etc.
 
-The Python code is included for reference and is not meant to actually be run anywhere else than once, by me. It is by no means elegant or efficient but that wasn't my goal anyway.
+The Python code is included for reference and is not meant to actually be run anywhere else than once, by me. It is by no means elegant or efficient but that wasn't my goal for this exercise.
 
 There is not much data missing, so I have chosen to simply disregard that issue. Possible causes of data loss include wifi problems, but thankfully there has been none of that during this period!
 
