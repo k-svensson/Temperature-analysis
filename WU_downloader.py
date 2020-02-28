@@ -19,8 +19,8 @@ def get_data():
     API_KEY='4041e9e02d404a5981e9e02d407a59e9'
 
     # date range: 2019-08-20 to 2020-02-25
-    start_date = date = datetime.date(2019,8,10)
-    end_date =datetime.date(2020,2,25)
+    start_date = date = datetime.date(2019,8,20)
+    end_date = datetime.date(2020,2,25)
 
     # loop through dates in range, saving a JSON file for each day
     for a in daterange(start_date, end_date):
@@ -43,7 +43,7 @@ def get_data():
 
 def join_files():
     start_date = date = datetime.date(2019,8,20)
-    end_date = datetime.date.today()-datetime.timedelta(days=1)
+    end_date = datetime.date(2020,2,25)
 
     df = pd.DataFrame(columns= ['date', 'temp'])
     for a in daterange(start_date, end_date):
