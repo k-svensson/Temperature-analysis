@@ -7,26 +7,13 @@ This is a little project to demonstrate the following:
 - visualizing data and conclusions in Power BI
 
 
-## Personal background
-
-I have 30+ years of computer experience and have had roles such as sysadmin and 1st-3rd level support. During this time, I have worked with varying software, hardware and operating systems. In short, I'm a self-taught allrounder.
-
-In the autumn of 2019, I was presented the opportunity to upgrade my skills with a 20-week course at Glasspaper Learning, and I of course happily accepted this offer. The course was tailor-made to the individual student in order to make the best use of their experience and talents, and for me that meant BI, which I haven't really worked with before but found it very easy to get to grips with.
-
-I have passed these Microsoft exams:
-- 70-778 Analyzing and visualizing data with MS Power BI
-- 70-779 Analyzing and visualizing data with MS Excel
-- 70-768 Developing SQL data models
-
-These 3 give me the certifications *MCSA: BI reporting* and *MCSE: Data management and analysis.*
-
 
 
 ## Project background
 
 I have a Fine Offset WH2900 weather station, purchased in August 2019, which is more than accurate enough for my needs and it uploads measurements continuously to Weather Underground (from now on, "WU").
 
-WU has changed their data policy over time which makes it more difficult to actually get access to your own data. Since I had no intention to lose the data, I wanted to download it regularly to store on a local disk where **I** decide what to do with it.
+WU has changed their data policy over time which makes it more difficult to get access to your own data. Since I had no intention to lose this information, I wanted to download it regularly to store on a local disk where **I** decide what to do with it.
 
 I found that using their API, I could write a Python script that gets all the data for a particular day and saves that to disk. This script is run every day using the Windows task scheduler.
 
@@ -89,7 +76,7 @@ From early December, the deviation has been around +5 degrees most of the time.
 
 The observations at home show a similar pattern to Blindern, which also is to be expected as the distance between the two is only approximately 5 km. We have noticed that temperatures reported from Blindern seem to be lower than ours, and the stats show that the average difference is 1 degree. This can have several reasons, for example surrounding buildings, elevation, less suitable location for the home station, etc.
 
-The Python code is included for reference and is not meant to actually be run anywhere else than once, by me. It is by no means elegant or efficient but that wasn't my goal anyway.
+The Python code is included for reference and is not meant to actually be run anywhere else than once, by me. It is by no means elegant or efficient but that wasn't my goal for this exercise.
 
 There is not much data missing, so I have chosen to simply disregard that issue. Possible causes of data loss include wifi problems, but thankfully there has been none of that during this period!
 
