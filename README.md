@@ -10,7 +10,9 @@ Conclusion: Yes, this winter has been very mild!
 
 ## Files in this repo:
 
-[Report](Report.md)
+[Report in markdown format (no graphics)](Report.md)
+
+[PDF report, with illustrations](Report_temperature_analysis.pdf)
 
 [Power BI desktop visualization](Temp_analysis.pbix)
 
