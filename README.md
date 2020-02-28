@@ -23,3 +23,5 @@ Input files:
 [Sample JSON result from Weather Underground query](WUdata-20200215.json)
 
 [Weather Underground data converted to daily average CSV file](Galgeberg2.csv)
+
+[Python script to download and prepare WU data](WU_downloader.py)
