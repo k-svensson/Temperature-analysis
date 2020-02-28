@@ -12,7 +12,7 @@ Conclusion: Yes, this winter has been very mild!
 
 [Report](Report.md)
 
-[Power BI visualization](Temp_analysis.pbix)
+[Power BI desktop visualization](Temp_analysis.pbix)
 
 Input files:
 
