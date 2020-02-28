@@ -58,7 +58,7 @@ To-do:
 
 ## Results
 
-**Please see the Weather.pbix file.**
+**Please see the [Power BI desktop](Temp_analysis.pbix) file.**
 
 In short, the results are:
 - Over the whole period, the average difference from normal temperature is +2.8 degrees C.
