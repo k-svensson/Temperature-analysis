@@ -16,6 +16,15 @@ Conclusion: Yes, this winter has been very mild!
 
 [Power BI desktop visualization](Temp_analysis.pbix)
 
+
+
+Python files:
+
+[Python script to download historical WU data](WU_downloader.py)
+
+[Python script to prepare WU data](WU_prepare.py)
+
+
 Input files:
 
 [Normal daily temperature at Blindern](Døgnnormal_Blindern.txt)
@@ -25,5 +34,3 @@ Input files:
 [Sample JSON result from Weather Underground query](WUdata-20200215.json)
 
 [Weather Underground data converted to daily average CSV file](Galgeberg2.csv)
-
-[Python script to download and prepare WU data](WU_downloader.py)
