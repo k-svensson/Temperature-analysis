@@ -44,7 +44,7 @@ Sources for the data:
 
 *Definition of daily "normal temperature": The temperature for that date during the period 1961-1990.*
 
-To-do:
+Workflow:
 - Get data from met.no
 - Get data from WU, and convert JSON to CSV files
 - Make the WU data the same granularity (daily) as the data from met.no
