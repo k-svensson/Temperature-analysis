@@ -5,9 +5,8 @@ Demo analysis of temperature observations from a private weather station compare
 
 
 
-### Main files 
 
-[PDF report, including case description and illustrations](Report_temperature_analysis.pdf)
+**[PDF report, including case description and illustrations](Report_temperature_analysis.pdf)**
 
 [Power BI desktop visualization](Temp_analysis.pbix)
 
