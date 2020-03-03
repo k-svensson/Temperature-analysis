@@ -1,28 +1,26 @@
 # Temperature analysis
  
-Demo analysis of temperature observations from a private weather station compared to the official meteorological service and the normal temperatures 1961-90.
-
-Period analysed: 1 September 2019 - 25 February 2020.
-
-Conclusion: Yes, this winter has been very mild!
+Demo analysis of temperature observations from a private weather station compared to the official meteorological service and the normal temperatures 1961-90. Period analysed: 1 September 2019 - 25 February 2020.
 
 
 
-## Main files in this repo:
+
+### Main files 
 
 [PDF report, including case description and illustrations](Report_temperature_analysis.pdf)
 
 [Power BI desktop visualization](Temp_analysis.pbix)
 
-[Report in markdown format (no graphics)](Report.md)  
+  
 
 
 --  
+
 Python files:
 
-[Python script to download historical WU data](WU_downloader.py)
+[Script to download historical WU data](WU_downloader.py)
 
-[Python script to prepare WU data](WU_prepare.py)
+[Script to prepare WU data](WU_prepare.py)
 
 
 --  
