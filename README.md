@@ -8,16 +8,16 @@ Conclusion: Yes, this winter has been very mild!
 
 
 
-## Files in this repo:
+## Main files in this repo:
 
-[Report in markdown format (no graphics)](Report.md)
-
-[PDF report, with illustrations](Report_temperature_analysis.pdf)
+[PDF report, including case description and illustrations](Report_temperature_analysis.pdf)
 
 [Power BI desktop visualization](Temp_analysis.pbix)
 
+[Report in markdown format (no graphics)](Report.md)  
 
 
+--  
 Python files:
 
 [Python script to download historical WU data](WU_downloader.py)
@@ -25,6 +25,7 @@ Python files:
 [Python script to prepare WU data](WU_prepare.py)
 
 
+--  
 Input files:
 
 [Normal daily temperature at Blindern](Døgnnormal_Blindern.txt)
