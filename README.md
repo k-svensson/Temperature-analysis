@@ -17,9 +17,9 @@ Demo analysis of temperature observations from a private weather station compare
 
 Python files:
 
-[Script to download historical WU data](WU_downloader.py)
+[Script to download historical WU data](files/WU_downloader.py)
 
-[Script to prepare WU data](WU_prepare.py)
+[Script to prepare WU data](files/WU_prepare.py)
 
 
 --  
