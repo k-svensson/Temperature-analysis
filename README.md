@@ -25,10 +25,10 @@ Python files:
 --  
 Input files:
 
-[Normal daily temperature at Blindern](Døgnnormal_Blindern.txt)
+[Normal daily temperature at Blindern](files\Døgnnormal_Blindern.txt)
 
-[Observed daily temperature at Blindern](Døgnverdier_Blindern_190820-200225.txt)
+[Observed daily temperature at Blindern](files\Døgnverdier_Blindern_190820-200225.txt)
 
-[Sample JSON result from Weather Underground query](WUdata-20200215.json)
+[Sample JSON result from Weather Underground query](files\WUdata-20200215.json)
 
-[Weather Underground data converted to daily average CSV file](Galgeberg2.csv)
+[Weather Underground data converted to daily average CSV file](files\Galgeberg2.csv)
