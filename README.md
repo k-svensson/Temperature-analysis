@@ -25,7 +25,7 @@ Python files:
 --  
 Input files:
 
-[Normal daily temperature at Blindern](files\Døgnnormal_Blindern.txt)
+[Normal daily temperature at Blindern](files/Døgnnormal_Blindern.txt)
 
 [Observed daily temperature at Blindern](files\Døgnverdier_Blindern_190820-200225.txt)
 
